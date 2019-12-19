@@ -1,0 +1,18 @@
+## URLs and cases
+
+<pre>
+  <code>
+ scheme:[//host[:port]][/]path[?query][#fragment]
+ \____________________/\________________________/
+        Location                 Data
+  </code>
+</pre>
+
+The location part is case sensitive.
+> Although schemes are case-insensitive, the canonical form is lowercase and documents that specify schemes must do so with lowercase letters.
+
+The data is not.
+
+### References
+- [StackExchange](https://webmasters.stackexchange.com/a/90378)
+- [Wikipedia](https://en.wikipedia.org/wiki/URL)
